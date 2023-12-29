@@ -28,7 +28,7 @@ public class Player {
         } else {
             this.rank = rank;
         }
-        if (age < 0){
+        if (age < 0 || age > 130){
             throw new IllegalArgumentException("The player's age cant be negative");
         } else {
             this.age = age;

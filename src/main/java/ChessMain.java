@@ -8,6 +8,7 @@ public class ChessMain {
         HashMap<String, Piece> pieceHashMap = main.createPieces();
 
 
+
         System.out.println(pieceHashMap);
 
 
